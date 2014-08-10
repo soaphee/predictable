@@ -1,0 +1,19 @@
+.left, .right, .center {
+  text-align: center; }
+
+.left {
+  position: absolute;
+  left: 0;
+  width: 33.33333%; }
+
+.right {
+  position: absolute;
+  right: 0;
+  width: 33.33333%; }
+
+.center {
+  position: fixed;
+  max-height: 3dh;
+  left: 33.33333%;
+  right: 33.33333%;
+  width: 33.33333%; }

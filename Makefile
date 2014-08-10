@@ -41,5 +41,7 @@ $(HTML_LOC)/%.html: $(JADE_LOC)/%.jade
 clean:
 	@rm -f $(CSS_FILE) $(ALL_JS_FILES) $(JS_BUILT)
 
+deploy:
+	git push -f origin master:gh-pages
 
-.PHONY: all clean
+.PHONY: all clean deploy
